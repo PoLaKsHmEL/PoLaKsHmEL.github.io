@@ -1,0 +1,93 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+article {
+	width: 90vw;
+	
+}
+
+.wrapper {
+	position: fixed;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+		align-items: center;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+#first {
+	background-image: url(bg2.jpg);
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#first{
+ 
+	background-image:url(bg3.jpg);
+}
+h1,h2,h3,button,a{
+font-family: 'Libre Franklin', sans-serif;
+
+}
+p, h1, h2, h2{
+font-family: 'Oswald', sans-serif;
+}
+
+.dudeoptur_heath{
+background-image: url(bg4.png);
+height: 100vh;
+	color: #fff;
+	text-align: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.privelegia{
+	color:#fcae11
+}
+
+.privelegia_sw{
+color:#fcae11
+}
+.guglic_header{
+background-image: url(png/bg5.png);
+height: 100vh;
+	color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+button {
+	padding: 15px 24px;
+	border-radius: 0;
+    border: 2px solid #fff;
+    background: 0 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-transition: border-color .3s,color .3s;
+    -o-transition: border-color .3s,color .3s;
+    transition: border-color .3s,color .3s;
+}
+
+.descript, .header-two {
+	margin: 0;
+}
+.glavnai{
+color:#fcae11	
+}
+.support21{
+color:#fcae11		
+}
