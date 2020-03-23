@@ -1,0 +1,211 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+article {
+width: 90vw;	
+	margin: 0 auto;
+}
+
+.wrapper {
+	position: fixed;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+		align-items: center;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+#first {
+	background-image: url(png/return.png);
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#last {
+	background-image: url(png/return.png);
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+#first{
+ 
+	background-image:url(png/return.png);
+}
+h1,h2,h3,button,a{
+font-family: 'Libre Franklin', sans-serif;
+
+}
+p, h1, h2, h2{
+font-family: 'Oswald', sans-serif;
+}
+
+.dudeoptur_heath{
+background-image: url(png/bg4.png);
+height: 100vh;
+	color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+
+}
+.privelegia{
+	color:#fcae11
+}
+
+.privelegia_sw{
+color:#fcae11
+}
+.guglic_header{
+background-image: url(png/bg5.png);
+height: 100vh;
+	color: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+button {
+	padding: 15px 24px;
+	border-radius: 0;
+    border: 2px solid #fff;
+    background: 0 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-transition: border-color .3s,color .3s;
+    -o-transition: border-color .3s,color .3s;
+    transition: border-color .3s,color .3s;
+}
+
+.descript, .header-two {
+margin: 0;	
+}
+.glavnai{
+color:#fcae11	
+}
+.support21{
+color:#fcae11		
+}
+.rule12{
+color:#fcae11	
+}
+.rer_1{
+color:#fcae11
+}
+.craft2{
+color:#fcae11	
+}
+.huhp{
+color:#fcae11	
+}
+.fufrf{
+	text-align: center;
+}
+.support212{
+    left: 500px
+    width: 100vw;	
+    text-align: left;
+     padding: 0
+}
+.suport222t{
+
+}
+.buttonDonat{
+color:#fcae11
+padding: 15px 24px;
+	border-radius: 0;
+    border: 2px solid #fcae11;
+    background: 0 0;
+    color: #fcae11;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    -webkit-transition: border-color .3s,color .3s;
+    -o-transition: border-color .3s,color .3s;
+    transition: border-color .3s,color .3s;	
+}
+.buy21{
+position: left;
+left: 20px
+}
+.rule321{	
+align-items: center;
+text-align: center;
+}
+.buydonate{	
+text-align: right;
+align-items: right;
+}
+#second{
+	
+}
+.de32{
+	
+
+	color: #565c60;
+	
+}
+#last{
+    background-image: url(return.png);
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+input {
+	padding: 15px 24px;
+border-radius: 0;
+border: 2px solid
+#fff;
+background: 0 0;
+color:
+#fff;
+font-weight: 700;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+.second-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-top: 100px;
+}
+
+.buydonate-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15PX;
+}
+
+.second-otem {
+	grid-column: 1/3
+}
+
+.second-otem > input {
+	width: 88%;
+}
